@@ -1,0 +1,5 @@
+find . -iname *.[ch] > cscope.files
+cscope -b
+ctags -L cscope.files
+cscope -d
+
